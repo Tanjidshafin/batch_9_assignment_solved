@@ -283,6 +283,7 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-position: bottom;
+    margin-bottom: 10rem;
 }
 
 .right_img_position {
@@ -291,3 +292,46 @@
 }
 
 /* Holiday page fully ompleted */
+.grid_section {
+    margin: 1%;
+
+}
+
+.display_grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+
+}
+
+.grid_title {
+    color: rgb(255, 0, 0);
+
+
+
+    font-size: 24px;
+
+    font-weight: 500;
+}
+
+.grid_title_two {
+    color: rgb(7, 2, 17);
+
+margin-top: 16px;
+margin-bottom: 22px;
+
+    font-size: 48px;
+
+    font-weight: 900;
+}
+
+.grid_description {
+    olor: rgba(7, 2, 17, 0.6);
+
+margin-bottom: 45px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-right: 30rem;
+}
+
+/* grid section done */
